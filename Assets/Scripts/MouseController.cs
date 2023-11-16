@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseController : MonoBehaviour
 {
-    private void OnEnable()
+    public void OnEnable()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
