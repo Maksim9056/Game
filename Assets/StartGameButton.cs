@@ -5,19 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class StartGameButton : MonoBehaviour
 {
+    private bool isButtonActivated = false;
 
-    //string sceneName = "Assets/Scenes/SampleSceneunity";
-
-    //string FirstsceneName = "MainScene";
-    //public float delay = 20f; // Задержка в секундах
-
-   public void Startgame()
-   {
-
-           SceneManager.LoadScene(1);
-        
-
-   }
-
- 
+    public void OnButtonClick()
+    {
+        if (!isButtonActivated)
+        {
+            isButtonActivated = true;
+            SceneManager.LoadScene(1);
+        }
+    }
 }

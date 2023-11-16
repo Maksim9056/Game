@@ -80,11 +80,14 @@
     <Compile Include="Assets\StartGameButton.cs" />
     <Compile Include="Assets\EZ-Camera-Shake-Unity-1.06\Assets\EZ Camera Shake\Scripts\CameraShakeInstance.cs" />
     <Compile Include="Assets\Scripts\GunSystem.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MouseController.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Scripts\Weapon.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\EZ-Camera-Shake-Unity-1.06\Assets\EZ Camera Shake\Scripts\CameraShaker.cs" />
     <Compile Include="Assets\EZ-Camera-Shake-Unity-1.06\Assets\EZ Camera Shake\Demo\ShakeDemo.cs" />
+    <Compile Include="Assets\Exit.cs" />
     <Compile Include="Assets\EZ-Camera-Shake-Unity-1.06\Assets\EZ Camera Shake\Demo\Sample Scripts\ShakeOnKeyPress.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
